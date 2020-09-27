@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
+  width: 100%;
   max-width: 600px;
   padding: 15px;
   margin-bottom: 15px;
 
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.6rem;
 
   cursor: pointer;
 
   :hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 10px -5px black;
   }
 `;
 
@@ -33,12 +34,13 @@ export const Footer = styled.div`
   font-size: smaller;
 
   button {
-    padding: 5px;
-    margin: 0 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 0.4rem;
+    border-radius: 50%;
     cursor: pointer;
   }
 
@@ -59,9 +61,11 @@ export const Price = styled.div`
 
 export const Description = styled.div`
   min-height: 60px;
-  height: 10vh;
+  height: 8vh;
   overflow: hidden;
 
   text-align: justify;
   font-size: smaller;
+
+  color: rgba(0, 0, 0, 0.6);
 `;
