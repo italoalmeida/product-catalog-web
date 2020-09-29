@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Header = styled.div`
   width: 100vw;
@@ -26,10 +26,10 @@ export const Header = styled.div`
     background-color: transparent;
     border-radius: 50%;
     cursor: pointer;
-  }
 
-  button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
   }
 `;
 

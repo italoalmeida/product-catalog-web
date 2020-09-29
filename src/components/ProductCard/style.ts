@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Card = styled.div`
   width: 100%;
@@ -11,7 +11,7 @@ export const Card = styled.div`
 
   cursor: pointer;
 
-  :hover {
+  &:hover {
     box-shadow: 0px 0px 10px -5px black;
   }
 `;
@@ -42,10 +42,10 @@ export const Footer = styled.div`
     background-color: transparent;
     border-radius: 50%;
     cursor: pointer;
-  }
 
-  button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
   }
 `;
 
@@ -66,6 +66,7 @@ export const Description = styled.div`
 
   text-align: justify;
   font-size: smaller;
+  line-height: 1.4rem;
 
   color: rgba(0, 0, 0, 0.6);
 `;
